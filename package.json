@@ -1,0 +1,26 @@
+{
+  "name": "meshblu-rate-limit-tester",
+  "version": "1.0.0",
+  "description": "Test the Limits!",
+  "main": "index.js",
+  "scripts": {
+    "start": "for i in `seq 1 30`; do coffee index.coffee $i& done",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/meshblu-rate-limit-tester.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/meshblu-rate-limit-tester/issues"
+  },
+  "homepage": "https://github.com/octoblu/meshblu-rate-limit-tester#readme",
+  "dependencies": {
+    "backo": "^1.1.0",
+    "coffee-script": "^1.9.3",
+    "fibers": "^1.0.5",
+    "meshblu": "^1.24.1"
+  }
+}
